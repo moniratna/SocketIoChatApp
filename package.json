@@ -1,17 +1,17 @@
 {
-  "name": "chatapp",
+  "name": "chatio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple chat app",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.0.1",
-    "express": "^4.17.1",
-    "pug": "^3.0.2",
-    "socket.io": "^4.1.2"
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta6",
+    "socket.io": "^1.7.2"
   }
 }
