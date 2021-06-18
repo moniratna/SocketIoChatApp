@@ -12,7 +12,7 @@ app.set('view engine', 'pug');
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (re,res, next)=> {
-    res.send('test');
+    res.render('index');
 });
 
 server.listen(port, ()=>{
